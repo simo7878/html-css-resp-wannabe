@@ -1,4 +1,4 @@
-.row {
+/*.row {
   width: 992px;
   margin-left: auto;
   margin-right: auto;
@@ -6,24 +6,24 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row > .left, #lezioni .row > .right{
+/*#lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
   float: left;
 }
-
+/*
 #lezioni .row img {
   /* per centrare orizzontalmente */
-  display: block;
+/*  display: block;--
   margin-right: auto;
   margin-left: auto;
-}
+}/*
 
 #lezioni {
   text-align: center;
 }
 
 /* BLOCCO STEPS */
-#steps .row > .left,
+/*#steps .row > .left,--
 #steps .row > .central,
 #steps .row > .right{
   float: left;
@@ -35,7 +35,7 @@
 }
 
 /* BLOCCO PERCHE */
-#why {
+/*#why {--
   text-align: center;
 }
 
@@ -53,6 +53,125 @@
 }
 
 /* COMMON */
+
+/*.container.grey{
+  background-color: #f9f9f9;
+}
+
+img{
+  height: 200px;
+}
+
+.clear {
+  clear:both;
+}/*
+
+
+/*inizio esercitazione*/
+/*.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row > .left, #lezioni .row > .right{
+  width: 50%;
+  float: left;
+
+}
+
+@media screen and (max-width: 420px) {
+   #lezioni .row > .left, #lezioni .row > .right {
+    clear:none;
+}
+
+  /*.clear {
+    clear: none*/
+
+  }
+
+  #lezioni .row > .left img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px;;
+  }
+
+  #lezioni .row > .right img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px;;
+  }
+
+  #lezioni .row h1 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  #lezioni .row h3 {
+    font-size: 13px;
+
+    margin: 0 35px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#lezioni .row img {
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+  float: left;
+  width: 33%;
+}
+
+#steps{
+  text-align: center;
+}
+
+
+#why {
+  text-align: center;
+}
+
+#why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding:30px
+}
+
+
 
 .container.grey{
   background-color: #f9f9f9;
