@@ -84,7 +84,7 @@ img{
 
 @media screen and (max-width: 420px) {
    #lezioni .row > .left, #lezioni .row > .right {
-    clear:none;
+    float: none;
 }
 
   /*.clear {
@@ -93,15 +93,15 @@ img{
   }
 
   #lezioni .row > .left img{
-    width: 100px;
-    height: 100px;
-    margin: 5px 10px;;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
   }
 
   #lezioni .row > .right img{
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px;;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
   }
 
   #lezioni .row h1 {
@@ -112,13 +112,19 @@ img{
 
   #lezioni .row h3 {
     font-size: 13px;
-
     margin: 0 35px;
+}
+
+#steps .row h1 {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px auto;
 
 
 }
 
 
+}
 
 
 
