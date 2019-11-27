@@ -67,7 +67,15 @@ img{
 }/*
 
 
-/*inizio esercitazione*/
+/* @**inizio esercitazione*@* */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
 /*.row {
   width: 992px;
   margin-left: auto;
@@ -85,42 +93,43 @@ img{
 @media screen and (max-width: 420px) {
    #lezioni .row > .left, #lezioni .row > .right {
     float: none;
-}
-
-  /*.clear {
-    clear: none*/
-
   }
 
+  .row {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
   #lezioni .row > .left img{
     width: 80px;
     height: 80px;
-    margin: 10px 10px;
+    margin: 20px 80px;
   }
 
   #lezioni .row > .right img{
-    width: 80px;
+    width: 90px;
     height: 80px;
-    margin: 10px 10px;
+    margin: 40px 80px;
   }
 
   #lezioni .row h1 {
     font-size: 15px;
     text-align: center;
-    margin: 0 5px;
+    margin: 10px 10px;
   }
 
   #lezioni .row h3 {
+    width: 100%;
     font-size: 13px;
-    margin: 0 35px;
+    margin: 0 auto;
+    margin: 10px 90px;
 }
 
-#steps .row h1 {
+  #steps .row h1 {
   font-size: 15px;
   text-align: center;
-  margin: 10px auto;
-
-
+  margin: 10px 10px;
 }
 
 
